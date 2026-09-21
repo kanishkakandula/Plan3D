@@ -1,0 +1,37 @@
+{
+  "name": "plan3d",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Plan3D — floor-plan image to editable 3D house model. Powered by K-Suite.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "verify": "node scripts/verify.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.3.0",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "pdfjs-dist": "^4.10.38",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tesseract.js": "^7.0.0",
+    "three": "^0.180.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^5.0.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}

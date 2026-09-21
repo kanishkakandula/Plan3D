@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Plan3D — Floor Plan to 3D</title>
+    <meta name="description" content="Convert a floor-plan image into an editable 3D house model. Powered by K-Suite." />
+    <!--
+      No webfont, by design: the app makes no network requests at all once it is
+      served, so it works offline and on an air-gapped machine. The system UI
+      stack is what gives it the native, CAD-application feel anyway.
+    -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234d9fff' stroke-width='1.8' stroke-linejoin='round'%3E%3Cpath d='m12 2.8 8.5 4.8v9.1L12 21.5 3.5 16.7V7.6z'/%3E%3Cpath d='M3.7 7.6 12 12.3l8.3-4.7M12 12.3v9.2'/%3E%3C/svg%3E" />
+  </head>
+  <body class="h-full">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
