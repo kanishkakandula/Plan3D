@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/Plan3D/',
   build: {
     target: 'es2020',
     chunkSizeWarningLimit: 1600,
